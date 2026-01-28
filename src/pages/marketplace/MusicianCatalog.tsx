@@ -3,7 +3,6 @@ import { Search, MapPin, Music, Star, Filter } from 'lucide-react';
 import Navbar from '../../components/layout/Navbar';
 import Footer from '../../components/layout/Footer';
 
-// Mock Data
 const MOCK_MUSICIANS = [
     {
         id: 1,
