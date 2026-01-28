@@ -1,12 +1,12 @@
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
-const imgImage1 = "./assets/4cae23605be7c6075f9ea1847f58a2694b68f9f4.png";
-const imgImage2 = "./assets/3e6adb084347625f38d3ae6717fea43db4fccc85.png";
+const imgImage1 = "/src/assets/4cae23605be7c6075f9ea1847f58a2694b68f9f4.png";
+const imgImage2 = "/src/assets/3e6adb084347625f38d3ae6717fea43db4fccc85.png";
 import videoBackground from "../assets/vieo/0127.mp4";
-const imgChuttersnapD271DSogr8Unsplash1 = "./assets/052fbb54fde50d6d30fe0288d0f76757b392a49f.png";
-const imgWhyKei8E2GalGie8Unsplash2 = "./assets/2b4639ccc4b1ff8c36f13928ca954d9e69b9048c.png";
-const imgDriverAppLogo1 = "./assets/c35a1d1896b151c32b632f9c4751d451518ee488.png";
-const imgRiderAppLogo1 = "./assets/bacdd6f4e1ebeae3eebadaaa3e494480fdf1f8d4.png";
+const imgChuttersnapD271DSogr8Unsplash1 = "/src/assets/052fbb54fde50d6d30fe0288d0f76757b392a49f.png";
+const imgWhyKei8E2GalGie8Unsplash2 = "/src/assets/2b4639ccc4b1ff8c36f13928ca954d9e69b9048c.png";
+const imgDriverAppLogo1 = "/src/assets/c35a1d1896b151c32b632f9c4751d451518ee488.png";
+const imgRiderAppLogo1 = "/src/assets/bacdd6f4e1ebeae3eebadaaa3e494480fdf1f8d4.png";
 import svgPaths from "@/imports/svg-h9g25ytp4u";
 
 export default function App() {
