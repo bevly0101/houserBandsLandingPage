@@ -10,9 +10,12 @@ import AboutHouserPage from '../pages/info/AboutHouserPage';
 import TargetAudiencePage from '../pages/info/TargetAudiencePage';
 import NoBureaucracyPage from '../pages/info/NoBureaucracyPage';
 
+import ScrollToTop from '../components/common/ScrollToTop';
+
 export default function AppRouter() {
     return (
         <BrowserRouter>
+            <ScrollToTop />
             <Routes>
                 <Route path="/" element={<LandingPage />} />
 
