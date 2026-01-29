@@ -3,7 +3,7 @@ import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
 import videoBackground from "../assets/vieo/video_BG_Desktop.mp4";
 import videoBackgroundMobile from "../assets/vieo/0127.mp4";
-import imgBusinessBg from "../assets/25d4a9ba6d456c8d53adccd1e78651afc1d0b61b.png";
+import imgBusinessBg from "../assets/pexels-annamw-1047442.jpg";
 import imgChuttersnapD271DSogr8Unsplash1 from "../assets/052fbb54fde50d6d30fe0288d0f76757b392a49f.png";
 import imgWhyKei8E2GalGie8Unsplash2 from "../assets/2b4639ccc4b1ff8c36f13928ca954d9e69b9048c.png";
 import imgDriverAppLogo1 from "../assets/c35a1d1896b151c32b632f9c4751d451518ee488.png";
