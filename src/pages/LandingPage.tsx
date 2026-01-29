@@ -195,7 +195,7 @@ export default function LandingPage() {
                         <p className="text-gray-600 text-sm mb-4 leading-relaxed">
                             Conectamos músicos e casas de show para tornar a contratação artística mais simples, rápida e justa.
                         </p>
-                        <a href="#" className="text-sm font-medium underline text-[#101010]">Learn more</a>
+                        <Link to="/info/about" className="text-sm font-medium underline text-[#101010]">Learn more</Link>
                     </div>
 
                     {/* Card 2 */}
@@ -207,11 +207,11 @@ export default function LandingPage() {
                                 </g>
                             </svg>
                         </div>
-                        <h3 className="text-xl font-bold mb-3 text-[#101010]">Newsroom</h3>
+                        <h3 className="text-xl font-bold mb-3 text-[#101010]">Para quem é a Houser Band</h3>
                         <p className="text-gray-600 text-sm mb-4 leading-relaxed">
-                            See announcements about our latest releases, initiatives, and partnerships.
+                            Músicos e bandas que querem tocar mais, sem depender só de indicações.Casas de show que precisam encontrar artistas rápido e no perfil certo
                         </p>
-                        <a href="#" className="text-sm font-medium underline text-[#101010]">Learn more</a>
+                        <Link to="/info/target-audience" className="text-sm font-medium underline text-[#101010]">Learn more</Link>
                     </div>
 
                     {/* Card 3 */}
@@ -223,11 +223,11 @@ export default function LandingPage() {
                                 </g>
                             </svg>
                         </div>
-                        <h3 className="text-xl font-bold mb-3 text-[#101010]">Global Citizenship</h3>
+                        <h3 className="text-xl font-bold mb-3 text-[#101010]">Sem burocracia. Sem intermediários.</h3>
                         <p className="text-gray-600 text-sm mb-4 leading-relaxed">
-                            Read about our commitment to making a positive impact in the cities we serve.
+                            Contato direto entre músicos e casas de show. Cada perfil aparece apenas para quem faz sentido. Você decide com quem negociar
                         </p>
-                        <a href="#" className="text-sm font-medium underline text-[#101010]">Learn more</a>
+                        <Link to="/info/no-bureaucracy" className="text-sm font-medium underline text-[#101010]">Learn more</Link>
                     </div>
                 </div>
             </section>

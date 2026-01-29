@@ -6,6 +6,9 @@ import ShowCatalog from '../pages/marketplace/ShowCatalog';
 import MusicianCatalog from '../pages/marketplace/MusicianCatalog';
 import PublishOptions from '../pages/publish/PublishOptions';
 import InfoPage from '../pages/info/InfoPage';
+import AboutHouserPage from '../pages/info/AboutHouserPage';
+import TargetAudiencePage from '../pages/info/TargetAudiencePage';
+import NoBureaucracyPage from '../pages/info/NoBureaucracyPage';
 
 export default function AppRouter() {
     return (
@@ -28,6 +31,9 @@ export default function AppRouter() {
                 <Route path="/how-it-works" element={<InfoPage variant="how-it-works" />} />
                 <Route path="/for-musicians" element={<InfoPage variant="musicians" />} />
                 <Route path="/for-venues" element={<InfoPage variant="venues" />} />
+                <Route path="/info/about" element={<AboutHouserPage />} />
+                <Route path="/info/target-audience" element={<TargetAudiencePage />} />
+                <Route path="/info/no-bureaucracy" element={<NoBureaucracyPage />} />
             </Routes>
         </BrowserRouter>
     );

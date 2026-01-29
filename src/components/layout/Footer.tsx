@@ -78,11 +78,7 @@ export default function Footer() {
                 </a>
             </div>
 
-            {/* Language & Location */}
-            <div className="flex gap-4 mb-8 text-base">
-                <span>🌐 English</span>
-                <span>📍 Jaipur</span>
-            </div>
+
 
             {/* Help Center */}
             <p className="text-base mb-8">Visit Help Center</p>
