@@ -31,7 +31,7 @@ export default function Footer() {
                         <li><Link to="/marketplace/shows" className="hover:text-white transition-colors">Encontrar shows</Link></li>
                         <li><Link to="/register" className="hover:text-white transition-colors">Criar perfil</Link></li>
                         <li><Link to="/marketplace/shows" className="hover:text-white transition-colors">Classificados</Link></li>
-                        <li><a href="#" className="hover:text-white transition-colors">Ozymandias music</a></li>
+                        <li><a href="#" className="hover:text-white transition-colors"><span className="text-[#D3AF37]">Ozymandias music</span> </a></li>
                     </ul>
                 </div>
 

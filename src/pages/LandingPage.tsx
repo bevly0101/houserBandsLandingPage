@@ -6,8 +6,8 @@ import videoBackgroundMobile from "../assets/vieo/0127.mp4";
 import imgBusinessBg from "../assets/pexels-annamw-1047442.jpg";
 import imgChuttersnapD271DSogr8Unsplash1 from "../assets/052fbb54fde50d6d30fe0288d0f76757b392a49f.png";
 import imgWhyKei8E2GalGie8Unsplash2 from "../assets/2b4639ccc4b1ff8c36f13928ca954d9e69b9048c.png";
-import imgDriverAppLogo1 from "../assets/c35a1d1896b151c32b632f9c4751d451518ee488.png";
-import imgRiderAppLogo1 from "../assets/bacdd6f4e1ebeae3eebadaaa3e494480fdf1f8d4.png";
+import imgDriverAppLogo1 from "../assets/Pixel_transparente.png";
+import imgRiderAppLogo1 from "../assets/busines_transparente.png";
 import svgPaths from "@/imports/svg-h9g25ytp4u";
 
 export default function LandingPage() {
@@ -148,7 +148,7 @@ export default function LandingPage() {
                                 <img
                                     src={imgDriverAppLogo1}
                                     alt="App Músico"
-                                    className="w-20 h-20 md:w-24 md:h-24 rounded-xl shadow-md"
+                                    className="w-30 h-20 md:w-28 md:h-24 rounded-xl"
                                 />
                                 <h3 className="text-xl md:text-2xl font-bold">Acessar como músico</h3>
                             </div>
@@ -165,9 +165,9 @@ export default function LandingPage() {
                                 <img
                                     src={imgRiderAppLogo1}
                                     alt="App Casa de Show"
-                                    className="w-20 h-20 md:w-24 md:h-24 rounded-xl shadow-md"
+                                    className="w-20 h-20 md:w-28 md:h-24 rounded-xl"
                                 />
-                                <h3 className="text-xl md:text-2xl font-bold">Acessar como<br />casa de show</h3>
+                                <h3 className="text-xl md:text-2xl font-bold">Acessar como<br />Estabelecimento</h3>
                             </div>
                             <Link to="/login" className="flex-shrink-0">
                                 <svg width="40" height="40" viewBox="0 0 68 58" fill="none" className="transform hover:translate-x-1 transition-transform">
